@@ -1,8 +1,8 @@
 {
+  "homepage": "https://github.com/FLuffy-teddy/fem-rating",
   "name": "fem-rating",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/FLuffy-teddy/fem-rating",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
