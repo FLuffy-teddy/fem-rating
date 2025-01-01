@@ -1,0 +1,124 @@
+body {
+  font-family: "Overpass";
+}
+.App {
+  background-color: black;
+  display: flex;
+  min-height: 100vh;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.App-component {
+  border-radius: 25px;
+  border: 1px solid hsl(216, 12%, 8%);
+  background: hsl(216, 12%, 8%);
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 16px;
+}
+.App-logo {
+  max-width: 20px;
+  background: hsl(213, 19%, 18%);
+  padding: 16px;
+  border-radius: 99px;
+}
+.App button {
+  background: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  border: hsl(25, 97%, 53%);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.App .App-star {
+  background: hsl(213, 19%, 18%);
+  border: hsl(213, 19%, 18%);
+  padding: 18px;
+  border-radius: 9999px;
+  color: hsl(217, 12%, 63%);
+  padding-inline: 23px;
+}
+.App .App-star.selected {
+  border: hsl(25, 97%, 53%);
+  background: hsl(25, 97%, 53%);
+}
+
+.App .select-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.App .select-wrap button {
+  cursor: pointer;
+  border-radius: 9999px;
+  min-width: 54px;
+  background: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  font-size: 18px;
+  padding: 16px;
+}
+
+.App .select-wrap button:hover {
+  background: white !important;
+  border: white;
+  color: hsl(213, 19%, 18%);
+}
+
+.App .select-wrap button.active {
+  border: hsl(25, 97%, 53%);
+  background: hsl(25, 97%, 53%);
+  color: hsl(213, 19%, 18%);
+}
+
+.App .submit:hover {
+  background: white !important;
+  border: white;
+  color: hsl(213, 19%, 18%);
+  cursor: pointer;
+}
+
+.App .App-image {
+  padding: 6px;
+}
+
+.App .bubble-wrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background: hsl(217, 19%, 18%);
+  width: fit-content;
+  border-radius: 9999px;
+  text-align: center;
+}
+
+.App .thanks {
+  text-align: center;
+  align-items: center;
+}
+
+.App .header {
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding-top: 24px;
+}
+.App .text {
+  color: hsl(217, 12%, 63%);
+  margin: 0;
+}
+.App h3 {
+  color: hsl(25, 97%, 53%);
+  margin: 0;
+  line-height: 18px;
+  padding-top: 2px;
+}
+.App h4 {
+  color: hsl(216, 12%, 8%);
+}
